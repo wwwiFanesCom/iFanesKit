@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/Macintosh\ HD/Users/317744017qq.com/Documents/iFanesKit/iFanesKit/iFanesKit/Kit/NSString/NSString+iFanesKit.m \
-  /Volumes/Macintosh\ HD/Users/317744017qq.com/Documents/iFanesKit/iFanesKit/iFanesKit/Kit/NSString/NSString+iFanesKit.h
+  /Users/317744017qq.com/Desktop/Temp/iFanesKit/iFanesKit/CoreCodeKit/NSString/NSString+iFanesKit.m \
+  /Users/317744017qq.com/Desktop/Temp/iFanesKit/iFanesKit/CoreCodeKit/NSString/NSString+iFanesKit.h

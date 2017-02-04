@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/Macintosh\ HD/Users/317744017qq.com/Documents/iFanesKit/iFanesKit/iFanesKit/main.m \
-  /Volumes/Macintosh\ HD/Users/317744017qq.com/Documents/iFanesKit/iFanesKit/iFanesKit/AppDelegate.h
+  /Users/317744017qq.com/Desktop/Temp/iFanesKit/iFanesKit/main.m \
+  /Users/317744017qq.com/Desktop/Temp/iFanesKit/iFanesKit/AppDelegate.h

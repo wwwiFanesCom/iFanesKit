@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6D2FDBAF1E45AEA800D1CCCE /* NSString+iFanesKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FDBAE1E45AEA800D1CCCE /* NSString+iFanesKit.m */; };
+		6D2FDBB41E45B18100D1CCCE /* UIImage+iFanesKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FDBB31E45B18100D1CCCE /* UIImage+iFanesKit.m */; };
+		6D2FDBB81E45B57000D1CCCE /* UIColor+iFanesKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FDBB71E45B57000D1CCCE /* UIColor+iFanesKit.m */; };
 		6DABCF231E457373009568A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF221E457373009568A9 /* main.m */; };
 		6DABCF261E457373009568A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF251E457373009568A9 /* AppDelegate.m */; };
 		6DABCF291E457373009568A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF281E457373009568A9 /* ViewController.m */; };
@@ -39,6 +41,10 @@
 		6D2FDBAB1E45AEA800D1CCCE /* iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iFanesKit.h; sourceTree = "<group>"; };
 		6D2FDBAD1E45AEA800D1CCCE /* NSString+iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iFanesKit.h"; sourceTree = "<group>"; };
 		6D2FDBAE1E45AEA800D1CCCE /* NSString+iFanesKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iFanesKit.m"; sourceTree = "<group>"; };
+		6D2FDBB21E45B18100D1CCCE /* UIImage+iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iFanesKit.h"; sourceTree = "<group>"; };
+		6D2FDBB31E45B18100D1CCCE /* UIImage+iFanesKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iFanesKit.m"; sourceTree = "<group>"; };
+		6D2FDBB61E45B57000D1CCCE /* UIColor+iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iFanesKit.h"; sourceTree = "<group>"; };
+		6D2FDBB71E45B57000D1CCCE /* UIColor+iFanesKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iFanesKit.m"; sourceTree = "<group>"; };
 		6DABCF1E1E457373009568A9 /* iFanesKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFanesKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DABCF221E457373009568A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DABCF241E457373009568A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				6D2FDBAB1E45AEA800D1CCCE /* iFanesKit.h */,
+				6D2FDBB51E45B56400D1CCCE /* UIColor */,
+				6D2FDBB11E45B16A00D1CCCE /* UIImage */,
 				6D2FDBAC1E45AEA800D1CCCE /* NSString */,
 			);
 			path = CoreCodeKit;
@@ -98,6 +106,31 @@
 				6D2FDBAE1E45AEA800D1CCCE /* NSString+iFanesKit.m */,
 			);
 			path = NSString;
+			sourceTree = "<group>";
+		};
+		6D2FDBB01E45AF0C00D1CCCE /* DemoViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DemoViewController;
+			sourceTree = "<group>";
+		};
+		6D2FDBB11E45B16A00D1CCCE /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FDBB21E45B18100D1CCCE /* UIImage+iFanesKit.h */,
+				6D2FDBB31E45B18100D1CCCE /* UIImage+iFanesKit.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		6D2FDBB51E45B56400D1CCCE /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FDBB61E45B57000D1CCCE /* UIColor+iFanesKit.h */,
+				6D2FDBB71E45B57000D1CCCE /* UIColor+iFanesKit.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		6DABCF151E457373009568A9 = {
@@ -123,6 +156,7 @@
 		6DABCF201E457373009568A9 /* iFanesKit */ = {
 			isa = PBXGroup;
 			children = (
+				6D2FDBB01E45AF0C00D1CCCE /* DemoViewController */,
 				6D2FDBAA1E45AEA800D1CCCE /* CoreCodeKit */,
 				6DABCF241E457373009568A9 /* AppDelegate.h */,
 				6DABCF251E457373009568A9 /* AppDelegate.m */,
@@ -297,9 +331,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D2FDBAF1E45AEA800D1CCCE /* NSString+iFanesKit.m in Sources */,
+				6D2FDBB41E45B18100D1CCCE /* UIImage+iFanesKit.m in Sources */,
 				6DABCF291E457373009568A9 /* ViewController.m in Sources */,
 				6DABCF261E457373009568A9 /* AppDelegate.m in Sources */,
 				6DABCF231E457373009568A9 /* main.m in Sources */,
+				6D2FDBB81E45B57000D1CCCE /* UIColor+iFanesKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

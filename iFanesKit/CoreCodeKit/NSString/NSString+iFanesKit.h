@@ -78,4 +78,8 @@
 + (BOOL)isContainsEmoji:(NSString *)string ;
 
 
+#pragma mark 其他常用方法
+//获取当前设备名称
++ (NSString *)getCurrentDeviceName;
+
 @end

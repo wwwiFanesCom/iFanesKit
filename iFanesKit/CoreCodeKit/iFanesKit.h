@@ -12,3 +12,6 @@
 
 
 #endif /* iFanesKit_h */
+
+
+#import "NSString+iFanesKit.h"
