@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D2FDBAF1E45AEA800D1CCCE /* NSString+iFanesKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FDBAE1E45AEA800D1CCCE /* NSString+iFanesKit.m */; };
 		6DABCF231E457373009568A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF221E457373009568A9 /* main.m */; };
 		6DABCF261E457373009568A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF251E457373009568A9 /* AppDelegate.m */; };
 		6DABCF291E457373009568A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF281E457373009568A9 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		6DABCF311E457373009568A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DABCF2F1E457373009568A9 /* LaunchScreen.storyboard */; };
 		6DABCF3C1E457373009568A9 /* iFanesKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF3B1E457373009568A9 /* iFanesKitTests.m */; };
 		6DABCF471E457373009568A9 /* iFanesKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF461E457373009568A9 /* iFanesKitUITests.m */; };
-		6DABCF5A1E45744C009568A9 /* NSString+iFanesKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DABCF591E45744C009568A9 /* NSString+iFanesKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D2FDBAB1E45AEA800D1CCCE /* iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iFanesKit.h; sourceTree = "<group>"; };
+		6D2FDBAD1E45AEA800D1CCCE /* NSString+iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iFanesKit.h"; sourceTree = "<group>"; };
+		6D2FDBAE1E45AEA800D1CCCE /* NSString+iFanesKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iFanesKit.m"; sourceTree = "<group>"; };
 		6DABCF1E1E457373009568A9 /* iFanesKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFanesKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DABCF221E457373009568A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DABCF241E457373009568A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,9 +55,6 @@
 		6DABCF421E457373009568A9 /* iFanesKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFanesKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DABCF461E457373009568A9 /* iFanesKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFanesKitUITests.m; sourceTree = "<group>"; };
 		6DABCF481E457373009568A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DABCF561E4573DB009568A9 /* iFanesKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iFanesKit.h; sourceTree = "<group>"; };
-		6DABCF581E45744C009568A9 /* NSString+iFanesKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iFanesKit.h"; sourceTree = "<group>"; };
-		6DABCF591E45744C009568A9 /* NSString+iFanesKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iFanesKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D2FDBAA1E45AEA800D1CCCE /* CoreCodeKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FDBAB1E45AEA800D1CCCE /* iFanesKit.h */,
+				6D2FDBAC1E45AEA800D1CCCE /* NSString */,
+			);
+			path = CoreCodeKit;
+			sourceTree = "<group>";
+		};
+		6D2FDBAC1E45AEA800D1CCCE /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FDBAD1E45AEA800D1CCCE /* NSString+iFanesKit.h */,
+				6D2FDBAE1E45AEA800D1CCCE /* NSString+iFanesKit.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 		6DABCF151E457373009568A9 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +123,7 @@
 		6DABCF201E457373009568A9 /* iFanesKit */ = {
 			isa = PBXGroup;
 			children = (
-				6DABCF551E457395009568A9 /* Kit */,
+				6D2FDBAA1E45AEA800D1CCCE /* CoreCodeKit */,
 				6DABCF241E457373009568A9 /* AppDelegate.h */,
 				6DABCF251E457373009568A9 /* AppDelegate.m */,
 				6DABCF271E457373009568A9 /* ViewController.h */,
@@ -143,24 +161,6 @@
 				6DABCF481E457373009568A9 /* Info.plist */,
 			);
 			path = iFanesKitUITests;
-			sourceTree = "<group>";
-		};
-		6DABCF551E457395009568A9 /* Kit */ = {
-			isa = PBXGroup;
-			children = (
-				6DABCF561E4573DB009568A9 /* iFanesKit.h */,
-				6DABCF571E4573F3009568A9 /* NSString */,
-			);
-			path = Kit;
-			sourceTree = "<group>";
-		};
-		6DABCF571E4573F3009568A9 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				6DABCF581E45744C009568A9 /* NSString+iFanesKit.h */,
-				6DABCF591E45744C009568A9 /* NSString+iFanesKit.m */,
-			);
-			path = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DABCF5A1E45744C009568A9 /* NSString+iFanesKit.m in Sources */,
+				6D2FDBAF1E45AEA800D1CCCE /* NSString+iFanesKit.m in Sources */,
 				6DABCF291E457373009568A9 /* ViewController.m in Sources */,
 				6DABCF261E457373009568A9 /* AppDelegate.m in Sources */,
 				6DABCF231E457373009568A9 /* main.m in Sources */,
@@ -531,6 +531,7 @@
 				6DABCF4D1E457373009568A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DABCF4E1E457373009568A9 /* Build configuration list for PBXNativeTarget "iFanesKitTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +540,7 @@
 				6DABCF501E457373009568A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DABCF511E457373009568A9 /* Build configuration list for PBXNativeTarget "iFanesKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +549,7 @@
 				6DABCF531E457373009568A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
